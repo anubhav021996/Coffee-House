@@ -1,0 +1,21 @@
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+#navbar:hover{
+    cursor: pointer;
+}
+#menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 2%;
+}
+#menu>div{
+    height: 500px;
+    width: 400px;
+}
+#menu>div>img{
+    width: 100%;
+    height: 60%;   
+}
